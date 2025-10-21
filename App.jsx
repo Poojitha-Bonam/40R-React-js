@@ -1,47 +1,9 @@
-
-// import './App.css'
-
-// // we need to wrap all elements inside container (eg: div, section or anything)
-// function App() {
-//   const a = "hi";
-//   const num = 123
-//   const t = true;
-//   const f = false;
-//   const n = null;
-//   const u = undefined;
-//   const arr = ["hi",123,"wow",num,undefined,true,false]
-//   const obj = {name:"pooji",age:23}
-//   return  <section className="container">
-//         <h1>Hi hello {a}</h1> 
-//         <p>pooji</p>
-//         <h6>number {num}</h6>
-//         <div>
-//           <ol>
-//             <li>{t}</li>
-//             <li>{f}</li>
-//             <li>{n}</li>
-//             <li>{u}</li>
-//             <li>{arr}</li>
-//             <li>{JSON.stringify(obj)}</li>
-//             <li>{obj.name} {obj.age}</li>
-//           </ol>
-//         </div>
-//   </section>
-
-
-  
-// }
-
-// export default App
-
-
-
 import React from "react";
 
 function App() {
   // JavaScript values to render with JSX
   const name = "Poojitha";
-  const age = 21;
+  const age = 22;
   const isStudent = true;
   const subjects = ["Python", "React", "Django"];
   const user = { city: "Hyderabad", country: "India" };
@@ -78,4 +40,45 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+// import './App.css'
+
+// // we need to wrap all elements inside container (eg: div, section or anything)
+// function App() {
+//   const a = "hi";
+//   const num = 123
+//   const t = true;
+//   const f = false;
+//   const n = null;
+//   const u = undefined;
+//   const arr = ["hi",123,"wow",num,undefined,true,false]
+//   const obj = {name:"pooji",age:23}
+//   return  <section className="container">
+//         <h1>Hi hello {a}</h1> 
+//         <p>pooji</p>
+//         <h6>number {num}</h6>
+//         <div>
+//           <ol>
+//             <li>{t}</li>
+//             <li>{f}</li>
+//             <li>{n}</li>
+//             <li>{u}</li>
+//             <li>{arr}</li>
+//             <li>{JSON.stringify(obj)}</li>
+//             <li>{obj.name} {obj.age}</li>
+//           </ol>
+//         </div>
+//   </section>
+
+
+  
+// }
+
+// export default App
 
